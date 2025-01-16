@@ -1,0 +1,27 @@
+{
+  "name": "move-message-bot",
+  "version": "0.1.0",
+  "description": "Discord bot to move messages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "startenv": "node --env-file=.env .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olillin/move-message-bot.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "olillin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olillin/move-message-bot/issues"
+  },
+  "homepage": "https://github.com/olillin/move-message-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.17.3"
+  }
+}
